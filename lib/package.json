@@ -1,0 +1,32 @@
+{
+  "name": "myPersonalWebsite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChristinaJYoung/myPersonalWebsite.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ChristinaJYoung/myPersonalWebsite/issues"
+  },
+  "homepage": "https://github.com/ChristinaJYoung/myPersonalWebsite#readme",
+  "dependencies": {
+    "jade": "^1.11.0"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.11.2",
+    "grunt-contrib-nodeunit": "~0.4.1",
+    "grunt-contrib-uglify": "~0.5.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-sass": "^1.1.0",
+    "matchdep": "^0.3.0"
+  }
+}
