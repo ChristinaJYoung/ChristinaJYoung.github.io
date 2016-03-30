@@ -66,8 +66,7 @@ a {
 .flip-container {
   perspective: 1000;
   display: inline-block;
-  margin: 0 5px 10px;
-  background-image: url("../images/2016_03_02_NSS_Cohort_11_0446_T-c_BW.jpg"); }
+  margin: 0 5px 10px; }
 
 /* flip the pane when hovered */
 .flip-container:hover .flipper, .flip-container.hover .flipper {
@@ -92,6 +91,7 @@ a {
 
 /* front pane, placed above back */
 #front {
+  background-image: url("../images/2016_03_02_NSS_Cohort_11_0446_T-c_BW.jpg");
   z-index: 2;
   /* for firefox 31 */
   transform: rotateY(0deg); }

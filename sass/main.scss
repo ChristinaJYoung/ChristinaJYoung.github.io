@@ -84,7 +84,7 @@ a {
 	perspective: 1000;
 	display: inline-block;
 	margin: 0 5px 10px;
-  background-image: $frontImage;
+
 }
 	/* flip the pane when hovered */
 .flip-container:hover .flipper, .flip-container.hover .flipper {
@@ -113,6 +113,7 @@ a {
 
 /* front pane, placed above back */
 #front {
+  background-image: $frontImage;
 	z-index: 2;
 	/* for firefox 31 */
 	transform: rotateY(0deg);
