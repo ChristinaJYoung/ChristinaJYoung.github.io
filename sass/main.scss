@@ -112,22 +112,22 @@ a {
 
 /* front pane, placed above back */
 #front {
-  background-color: black;
+  // background-color: black;
 	z-index: 2;
 	/* for firefox 31 */
 	transform: rotateY(0deg);
 }
 
 /* back, initially hidden pane */
-#back {
-	transform: rotateY(180deg);
-  // background-image: $backImage;
-}
-
-#back {
-	box-sizing: border-box;
-	padding: 20px;
-}
+// #back {
+// 	transform: rotateY(180deg);
+//   // background-image: $backImage;
+// }
+//
+// #back {
+// 	box-sizing: border-box;
+// 	padding: 20px;
+// }
 
 // .back a {
 // 	text-decoration: none;
