@@ -13,15 +13,26 @@
 </head>
 
 <body id="content">
+  <div class="row" id="navBar">
+    <div class="col-md-12">
+      <nav class="navbar navbar-static-top">
+        <a href="#homePage" id="home">Home</a>
+        <a href="#bioPage" id="bio">Bio</a>
+        <a href="#projectsPage">Projects</a>
+        <a href="#techPage" id="technologies">Technologies</a>
+      </nav>
+    </div>
+  </div>
+
   <article id="homePage">
     <h1>Christina Young</h1>
     <h3>Software Developer</h3>
   </article>
 
-  <article id="techPage">
+  <article class="fade-in" id="techPage">
     <a id="about" class="smooth"></a>
-    <h1>Christina Young</h1>
-    <h3>Technologies:</h3>
+        <h1>Christina Young</h1>
+        <h3>Technologies:</h3>
     <div class="row" class="listIcons">
       <div class="col-md-2">
       </div>
@@ -72,23 +83,30 @@
     </div>
   </article>
 
-  <article id="bioPage">
+  <!-- <article class="carousel">
+    <a class="carousel-item" title="Make Up Your Mind"><img
+    <a class="carousel-item" title="Make Up Your Mind"><img
+  </article> -->
+
+  <article class="fade-in" id="bioPage">
       <h1>Christina Young</h1>
       <h3>About Me</h3>
-      <div class="row" class="listIcons">
+      <div class="row">
         <div class="col-md-6">
-          <p id="aboutMe">Hello! I am a software developer, designer and student.  I got my start in programming with HTML and CSS in high school and have loved it ever since.  I continued learning about code through high school and went on to start designing in college where I studied Web Design at Nashville State. I recently completed an rigorous six month apprenticeship program at Nashville Software School, and I'm very excited to continue both my career and my education.</p>
+          <p id="aboutMe">Hello! I am a software developer, designer and student.  I got my start in programming with HTML and CSS in high school and have loved it ever since.  I continued learning about code through high school and went on to start designing in college where I studied Web Design at Nashville State. I recently completed a rigorous six month apprenticeship program at Nashville Software School, and I'm very excited to continue both my career and my education.</p>
+        </div>
+        <div class="flip-container col-md-6" ontouchstart="this.classList.toggle('hover');">
+          <div class="flipper">
+            <div id="front">
+              <!-- front content -->
+            </div>
+            <div id="back">
+              <!-- back content -->
+            </div>
+          </div>
         </div>
       </div>
   </article>
-
-  <nav class="navbar navbar-static-top" id="navBar">
-    <a href="#homePage" id="home">Home</a>
-    <a href="#bioPage" id="bio">Bio</a>
-    <a href="#projectsPage">Projects</a>
-    <a href="#techPage" id="technologies">Technologies</a>
-  </nav>
-
 
   <script data-main="app/entry" src="./lib/bower_components/requirejs/require.js"></script>
   <script src="./lib/bower_components/jquery/dist/jquery.min.js"></script>
