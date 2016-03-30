@@ -92,13 +92,13 @@ a {
 	}
 
 .flip-container, #front, #back {
+  background-image: $frontImage;
 	width: 215px;
 	height: 300px;
 }
 
 /* flip speed goes here */
 .flipper {
-  background-image: $frontImage;
 	transition: 0.6s;
 	transform-style: preserve-3d;
 	position: relative;

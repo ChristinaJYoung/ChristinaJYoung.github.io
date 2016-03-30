@@ -73,12 +73,12 @@ a {
   transform: rotateY(180deg); }
 
 .flip-container, #front, #back {
+  background-image: url("../images/2016_03_02_NSS_Cohort_11_0446_T-c_BW.jpg");
   width: 215px;
   height: 300px; }
 
 /* flip speed goes here */
 .flipper {
-  background-image: url("../images/2016_03_02_NSS_Cohort_11_0446_T-c_BW.jpg");
   transition: 0.6s;
   transform-style: preserve-3d;
   position: relative; }
