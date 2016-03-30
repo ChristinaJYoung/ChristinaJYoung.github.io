@@ -63,11 +63,25 @@ a {
   margin-top: 20px;
   padding-top: 50px; }
 
-#front, #back {
+.flip-container {
+  perspective: 1000;
+  display: inline-block;
+  margin: 0 5px 10px; }
+
+/* flip the pane when hovered */
+.flip-container:hover .flipper, .flip-container.hover .flipper {
+  transform: rotateY(180deg); }
+
+.flip-container, #front, #back {
   width: 215px;
   height: 300px; }
 
 /* flip speed goes here */
+.flipper {
+  transition: 0.6s;
+  transform-style: preserve-3d;
+  position: relative; }
+
 /* hide back of pane during swap */
 #front, #back {
   backface-visibility: hidden;
@@ -78,9 +92,15 @@ a {
 /* front pane, placed above back */
 #front {
   z-index: 2;
+  background-image: url("../images/2016_03_02_NSS_Cohort_11_0446_T-c_BW.jpg");
   /* for firefox 31 */
   transform: rotateY(0deg); }
 
 /* back, initially hidden pane */
+#back {
+  background-image: url("../images/2016_03_02_NSS_Cohort_11_0434_T.jpg");
+  transform: rotateY(180deg);
+  box-sizing: border-box;
+  padding: 20px; }
 
 /*# sourceMappingURL=main.css.map */

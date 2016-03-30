@@ -1,7 +1,7 @@
 $bkgdImage: url('../images/option3.jpg');
 $myFont: 'Alegreya Sans', sans-serif;
-// $frontImage: url('../images/2016_03_02_NSS_Cohort_11_0446_T-c_BW.jpg');
-// $backImage: url('../images/2016_03_02_NSS_Cohort_11_0434_T.jpg');
+$frontImage: url('../images/2016_03_02_NSS_Cohort_11_0446_T-c_BW.jpg');
+$backImage: url('../images/2016_03_02_NSS_Cohort_11_0434_T.jpg');
 
 body {
   font-family: $myFont;
@@ -80,27 +80,27 @@ a {
   padding-top: 50px;
 }
 
-// .flip-container {
-// 	perspective: 1000;
-// 	display: inline-block;
-// 	margin: 0 5px 10px;
-// }
-// 	/* flip the pane when hovered */
-// .flip-container:hover .flipper, .flip-container.hover .flipper {
-// 		transform: rotateY(180deg);
-// 	}
+.flip-container {
+	perspective: 1000;
+	display: inline-block;
+	margin: 0 5px 10px;
+}
+	/* flip the pane when hovered */
+.flip-container:hover .flipper, .flip-container.hover .flipper {
+		transform: rotateY(180deg);
+	}
 
-#front, #back {
+.flip-container, #front, #back {
 	width: 215px;
 	height: 300px;
 }
 
 /* flip speed goes here */
-// .flipper {
-// 	transition: 0.6s;
-// 	transform-style: preserve-3d;
-// 	position: relative;
-// }
+.flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+	position: relative;
+}
 
 /* hide back of pane during swap */
 #front, #back {
@@ -113,14 +113,16 @@ a {
 /* front pane, placed above back */
 #front {
 	z-index: 2;
+  background-image: $frontImage;
 	/* for firefox 31 */
 	transform: rotateY(0deg);
 }
 
 /* back, initially hidden pane */
 
-// #back {
-//   transform: rotateY(180deg);
-// 	box-sizing: border-box;
-// 	padding: 20px;
-// }
+#back {
+  background-image: $backImage;
+  transform: rotateY(180deg);
+	box-sizing: border-box;
+	padding: 20px;
+}
