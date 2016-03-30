@@ -78,6 +78,7 @@ a {
 
 /* flip speed goes here */
 .flipper {
+  background-image: url("../images/2016_03_02_NSS_Cohort_11_0446_T-c_BW.jpg");
   transition: 0.6s;
   transform-style: preserve-3d;
   position: relative; }
@@ -91,14 +92,17 @@ a {
 
 /* front pane, placed above back */
 #front {
-  background-image: url("../images/2016_03_02_NSS_Cohort_11_0446_T-c_BW.jpg");
   z-index: 2;
   /* for firefox 31 */
   transform: rotateY(0deg); }
 
 /* back, initially hidden pane */
 #back {
-  transform: rotateY(180deg);
-  background-image: url("../images/2016_03_02_NSS_Cohort_11_0434_T.jpg"); }
+  transform: rotateY(180deg); }
+
+#back {
+  background-image: url("../images/2016_03_02_NSS_Cohort_11_0434_T.jpg");
+  box-sizing: border-box;
+  padding: 20px; }
 
 /*# sourceMappingURL=main.css.map */
