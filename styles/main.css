@@ -64,6 +64,7 @@ a {
   padding-top: 50px; }
 
 .flip-container {
+  background-image: url("../images/2016_03_02_NSS_Cohort_11_0446_T-c_BW.jpg");
   perspective: 1000;
   display: inline-block;
   margin: 0 5px 10px; }
@@ -73,7 +74,6 @@ a {
   transform: rotateY(180deg); }
 
 .flip-container, #front, #back {
-  background-image: url("../images/2016_03_02_NSS_Cohort_11_0446_T-c_BW.jpg");
   width: 215px;
   height: 300px; }
 
