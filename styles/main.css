@@ -72,7 +72,7 @@ a {
 .flip-container:hover .flipper, .flip-container.hover .flipper {
   transform: rotateY(180deg); }
 
-.flip-container, .front, .back {
+.flip-container, #front, #back {
   width: 215px;
   height: 300px; }
 
