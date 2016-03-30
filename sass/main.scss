@@ -113,7 +113,6 @@ a {
 /* front pane, placed above back */
 #front {
 	z-index: 2;
-  background-image: $bkgdImage;
 	/* for firefox 31 */
 	transform: rotateY(0deg);
 }
@@ -121,7 +120,6 @@ a {
 /* back, initially hidden pane */
 
 #back {
-  background-image: $backImage;
   transform: rotateY(180deg);
 	box-sizing: border-box;
 	padding: 20px;

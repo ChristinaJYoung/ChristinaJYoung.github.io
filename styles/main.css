@@ -92,13 +92,11 @@ a {
 /* front pane, placed above back */
 #front {
   z-index: 2;
-  background-image: url("../images/option3.jpg");
   /* for firefox 31 */
   transform: rotateY(0deg); }
 
 /* back, initially hidden pane */
 #back {
-  background-image: url("../images/2016_03_02_NSS_Cohort_11_0434_T.jpg");
   transform: rotateY(180deg);
   box-sizing: border-box;
   padding: 20px; }
