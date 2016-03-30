@@ -51,7 +51,8 @@ a {
   background-color: rgba(0, 0, 15, 0.6);
   position: absolute;
   padding: 20px;
-  display: none; }
+  display: none;
+  overflow: scroll; }
 
 #projectsPage {
   width: 100%;
@@ -59,7 +60,8 @@ a {
   background-color: rgba(0, 0, 15, 0.6);
   position: absolute;
   padding: 20px;
-  display: none; }
+  display: none;
+  overflow: scroll; }
 
 #aboutMe {
   color: skyblue;
