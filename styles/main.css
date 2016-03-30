@@ -77,7 +77,7 @@ a {
 .flip-container:hover .flipper, .flip-container.hover .flipper {
   transform: rotateY(180deg); }
 
-.flip-container, .front, .back {
+.flip-container, #front, #back {
   width: 215px;
   height: 300px;
   border-radius: 3px; }
@@ -89,7 +89,7 @@ a {
   position: relative; }
 
 /* hide back of pane during swap */
-.front, .back {
+#front, #back {
   backface-visibility: hidden;
   box-shadow: 1px 1px 2px #000;
   position: absolute;
@@ -98,13 +98,13 @@ a {
   z-index: 2; }
 
 /* front pane, placed above back */
-.front {
+#front {
   /* for firefox 31 */
   transform: rotateY(0deg);
   background-size: cover; }
 
 /* back, initially hidden pane */
-.back {
+#back {
   transform: rotateY(180deg);
   color: #000;
   text-align: left;
