@@ -80,6 +80,12 @@ a {
   padding-top: 50px;
 }
 
+#gridWrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+
 .flip-container {
 	perspective: 1000;
 	display: inline-block;
@@ -99,7 +105,7 @@ a {
 .flipper {
 	transition: 0.6s;
 	transform-style: preserve-3d;
-	// position: relative;
+	position: relative;
 }
 
 /* hide back of pane during swap */
