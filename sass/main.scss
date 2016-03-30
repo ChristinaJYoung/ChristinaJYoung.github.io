@@ -81,7 +81,6 @@ a {
 }
 
 .flip-container {
-  background-image: $frontImage;
 	perspective: 1000;
 	display: inline-block;
 	margin: 0 5px 10px;
@@ -113,6 +112,7 @@ a {
 
 /* front pane, placed above back */
 #front {
+  background-image: $frontImage;
 	z-index: 2;
 	/* for firefox 31 */
 	transform: rotateY(0deg);
