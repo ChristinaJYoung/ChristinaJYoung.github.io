@@ -1,7 +1,7 @@
 $bkgdImage: url('../images/option3.jpg');
 $myFont: 'Alegreya Sans', sans-serif;
-$frontImage: url('../images/2016_03_02_NSS_Cohort_11_0446_T-c_BW.jpg');
-$backImage: url('../images/2016_03_02_NSS_Cohort_11_0434_T.jpg');
+// $frontImage: url('../images/2016_03_02_NSS_Cohort_11_0446_T-c_BW.jpg');
+// $backImage: url('../images/2016_03_02_NSS_Cohort_11_0434_T.jpg');
 
 body {
   font-family: $myFont;
@@ -112,7 +112,7 @@ a {
 
 /* front pane, placed above back */
 #front {
-  background-image: $frontImage;
+  // background-image: $frontImage;
 	z-index: 2;
 	/* for firefox 31 */
 	transform: rotateY(0deg);
@@ -121,7 +121,7 @@ a {
 /* back, initially hidden pane */
 #back {
 	transform: rotateY(180deg);
-  background-image: $backImage;
+  // background-image: $backImage;
 }
 
 #back {
