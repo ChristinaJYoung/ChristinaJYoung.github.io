@@ -92,7 +92,7 @@ a {
 /* front pane, placed above back */
 #front {
   z-index: 2;
-  background-image: url("../images/2016_03_02_NSS_Cohort_11_0446_T-c_BW.jpg");
+  background-image: url("../images/option3.jpg");
   /* for firefox 31 */
   transform: rotateY(0deg); }
 
