@@ -98,10 +98,10 @@ a {
 
 /* back, initially hidden pane */
 #back {
-  transform: rotateY(180deg); }
+  transform: rotateY(180deg);
+  background-image: url("../images/2016_03_02_NSS_Cohort_11_0434_T.jpg"); }
 
 #back {
-  background-image: url("../images/2016_03_02_NSS_Cohort_11_0434_T.jpg");
   box-sizing: border-box;
   padding: 20px; }
 

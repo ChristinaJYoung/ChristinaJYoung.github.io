@@ -121,10 +121,10 @@ a {
 /* back, initially hidden pane */
 #back {
 	transform: rotateY(180deg);
+  background-image: $backImage;
 }
 
 #back {
-	background-image: $backImage;
 	box-sizing: border-box;
 	padding: 20px;
 }
