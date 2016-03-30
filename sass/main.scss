@@ -86,7 +86,7 @@ a {
 	margin: 0 5px 10px;
 }
 	/* flip the pane when hovered */
-.flip-container:hover .flipper, .flip-container.hover .flipper {
+.flip-container:hover #flipper, .flip-container.hover #flipper {
 		transform: rotateY(180deg);
 	}
 
@@ -96,7 +96,7 @@ a {
 }
 
 /* flip speed goes here */
-.flipper {
+#flipper {
 	transition: 0.6s;
 	transform-style: preserve-3d;
 	position: relative;
@@ -112,7 +112,6 @@ a {
 
 /* front pane, placed above back */
 #front {
-  // background-color: black;
 	z-index: 2;
 	/* for firefox 31 */
 	transform: rotateY(0deg);
