@@ -86,7 +86,7 @@ a {
 	margin: 0 5px 10px;
 }
 	/* flip the pane when hovered */
-.flip-container:hover #flipper, .flip-container.hover #flipper {
+.flip-container:hover .flipper, .flip-container.hover .flipper {
 		transform: rotateY(180deg);
 	}
 
@@ -96,7 +96,7 @@ a {
 }
 
 /* flip speed goes here */
-#flipper {
+.flipper {
 	transition: 0.6s;
 	transform-style: preserve-3d;
 	position: relative;
@@ -118,22 +118,9 @@ a {
 }
 
 /* back, initially hidden pane */
-// #back {
-// 	transform: rotateY(180deg);
-//   // background-image: $backImage;
-// }
-//
-// #back {
-// 	box-sizing: border-box;
-// 	padding: 20px;
-// }
 
-// .back a {
-// 	text-decoration: none;
-// 	font-weight: bold;
-// 	color: #8ba854;
-// }
-//
-// .back a:hover {
-// 	color: #5c742e;
-// }
+#back {
+  transform: rotateY(180deg);
+	box-sizing: border-box;
+	padding: 20px;
+}
