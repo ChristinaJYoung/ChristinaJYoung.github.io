@@ -79,6 +79,22 @@
         <div class="col-md-6">
           <p id="aboutMe">Hello! I am a software developer, designer and student.  I got my start in programming with HTML and CSS in high school and have loved it ever since.  I continued learning about code through high school and went on to start designing in college where I studied Web Design at Nashville State. I recently completed an rigorous six month apprenticeship program at Nashville Software School, and I'm very excited to continue both my career and my education.</p>
         </div>
+        <div id="gridWrapper">
+          {% for post in site.posts %}
+          {% if post.flipCard == "true" %}
+          <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+            <div class="flipper">
+              <div id="front" style="background-image: url(./images/2016_03_02_NSS_Cohort_11_0446_T-c_BW.jpg)">
+              <!-- front content -->
+              </div>
+              <div class="back">
+                <div id="front" style="background-image: url(./images/2016_03_02_NSS_Cohort_11_0434_T.jpg)">
+              </div>
+            </div>
+          </div>
+          {% endif %}
+          {% endfor %}
+        </div>
       </div>
   </article>
 
