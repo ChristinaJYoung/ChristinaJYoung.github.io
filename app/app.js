@@ -5,7 +5,7 @@ define(["jquery"], function($) {
     $('#homePage').hide();
     $('#bioPage').hide();
     $('#projectsPage').hide();
-    $('#contactPage').hide('slow');
+    $('#contactPage').hide();
     console.log("Hello World! ");
   });
 
@@ -14,7 +14,7 @@ define(["jquery"], function($) {
     $('#techPage').hide();
     $('#bioPage').hide();
     $('#projectsPage').hide();
-    $('#contactPage').hide('slow');
+    $('#contactPage').hide();
     console.log("Hello World! ");
   });
 
@@ -23,13 +23,13 @@ define(["jquery"], function($) {
     $('#homePage').hide();
     $('#techPage').hide();
     $('#projectsPage').hide();
-    $('#contactPage').hide('slow');
+    $('#contactPage').hide();
     console.log("Hello World! ");
   });
 
   $('#projects').click(function () {
     $('#projectsPage').show('slow');
-    $('#contactPage').hide('slow');
+    $('#contactPage').hide();
     $('#homePage').hide();
     $('#bioPage').hide();
     $('#techPage').hide();
