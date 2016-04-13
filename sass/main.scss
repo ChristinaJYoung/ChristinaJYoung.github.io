@@ -2,9 +2,9 @@ $bkgdImage: url('../images/option3.jpg');
 $myFont: 'Alegreya Sans', sans-serif;
 $frontImg: url('../images/2016_03_02_NSS_Cohort_11_0446_T-c_BW.jpg');
 $backImg: url('../images/2016_03_02_NSS_Cohort_11_0434_T.jpg');
-@-webkit-keyframes fadeIn { from { opacity:0; opacity: 1\9; /* IE9 only */ } to { opacity:1; } }
-@-moz-keyframes fadeIn { from { opacity:0; opacity: 1\9; /* IE9 only */ } to { opacity:1; } }
-@keyframes fadeIn { from { opacity:0; opacity: 1\9; /* IE9 only */ } to { opacity:1; } }
+@-webkit-keyframes fadeIn { from { opacity:0; opacity: 1\9 } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; opacity: 1\9 } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; opacity: 1\9 } to { opacity:1; } }
 
 body {
   font-family: $myFont;
