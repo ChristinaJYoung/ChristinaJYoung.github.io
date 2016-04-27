@@ -45,4 +45,23 @@ define(["jquery"], function($) {
     console.log("Hello World! ");
   });
 
+  $('#projects').click(function () {
+    $('#projectsPage').show('slow');
+    $('#contactPage').hide();
+    $('#homePage').hide();
+    $('#bioPage').hide();
+    $('#techPage').hide();
+    console.log("Hello World! ");
+  });
+
+  $('#contact').click(function () {
+    $('#contactPage').show('slow');
+    $('#projectsPage').hide();
+    $('#homePage').hide();
+    $('#bioPage').hide();
+    $('#techPage').hide();
+    console.log("Hello World! ");
+  });
+
+
 });
