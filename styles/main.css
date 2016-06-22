@@ -33,6 +33,9 @@ h3 {
   text-shadow: 1px 1px #000;
   padding-left: 25px; }
 
+.background {
+  background-color: rgba(0, 0, 15, 0.6); }
+
 #homePage {
   width: 40%;
   height: 100%;
@@ -42,18 +45,91 @@ h3 {
   text-align: center;
   float: left; }
 
-a {
+/* nav */
+.nav {
+  position: relative;
+  margin: 20px 0;
+  float: right; }
+
+.nav ul {
+  margin: 0;
+  padding: 0; }
+
+.nav li {
+  margin: 0 5px 10px 0;
+  padding: 0;
+  list-style: none;
+  display: inline-block;
+  font-size: 18px; }
+
+.nav a {
+  padding: 3px 12px;
+  text-decoration: none;
   color: #a28ad2;
-  margin: 15px; }
+  line-height: 100%; }
 
-#navBar {
-  padding-top: 15px;
-  padding-right: 15px;
-  font-size: 18px;
-  float: right;
-  margin: auto;
-  overflow: visible; }
+.nav a:hover {
+  color: #D6FFC0; }
 
+/* right nav */
+.nav.right ul {
+  text-align: right; }
+
+/* center nav */
+.nav.center ul {
+  text-align: center; }
+
+@media screen and (max-width: 600px) {
+  .nav {
+    position: relative;
+    min-height: 40px;
+    padding: 0 10px; }
+
+  .nav ul {
+    width: 100px;
+    padding: 5px 0;
+    position: static;
+    top: 0;
+    left: 0;
+    border: solid 1px #aaa;
+    background: rgba(188, 229, 255, 0.8) url(images/icon-menu.png) no-repeat 10px 11px;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3); }
+
+  .nav li {
+    display: none;
+    /* hide all <li> items */
+    margin: 0; }
+
+  .nav .current {
+    display: block;
+    /* show only current <li> item */ }
+
+  .nav a {
+    display: block;
+    padding: 5px 5px 5px 32px;
+    text-align: left; }
+
+  /* on nav hover */
+  .nav ul:hover {
+    background-image: none; }
+
+  .nav ul:hover li {
+    display: block;
+    margin: 0 0 5px; }
+
+  .nav ul:hover .current {
+    background: url(images/icon-check.png) no-repeat 10px 7px; }
+
+  /* right nav */
+  .nav.right ul {
+    left: auto;
+    right: 0; }
+
+  /* center nav */
+  .nav.center ul {
+    left: 50%;
+    margin-left: -90px; } }
 #techPage {
   width: 100%;
   height: 100%;
@@ -82,7 +158,7 @@ a {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 15, 0.6);
-  position: absolute;
+  position: fixed;
   padding: 20px;
   display: none;
   overflow: scroll; }
@@ -91,16 +167,22 @@ a {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 15, 0.6);
-  position: absolute;
+  position: fixed;
   padding: 20px;
   display: none;
   overflow: scroll; }
+
+label {
+  display: block; }
+
+input {
+  display: block; }
 
 #projectsPage {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 15, 0.6);
-  position: absolute;
+  position: fixed;
   padding: 20px;
   display: none;
   overflow: scroll; }

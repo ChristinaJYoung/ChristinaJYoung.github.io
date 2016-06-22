@@ -9,6 +9,7 @@
   <link rel="stylesheet" type="text/css" href="lib/bower_components/bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="styles/main.css">
   <link href='https://fonts.googleapis.com/css?family=Alegreya+Sans:500,400' rel='stylesheet' type='text/css'>
+  <meta name="viewport" content="device=device-width, initial-scale=1.0">
 
 </head>
 
@@ -108,23 +109,40 @@
   </article>
 
   <article class="fade-in" id="contactPage">
+    <h1>Christina Young</h1>
+    <h3>Contact Me</h3>
+    <form class="contactForm" action="mailto:c_j_y@ymail.com" method="post" entype="text/plain">
+      <!-- <fieldset> -->
+        <label for="firstName">First Name:
+          <input type="text" name="firstName" id="" placeholder="Enter Your First Name">
+        </label>
+        <label for="lastName">Last Name:
+          <input type="text" name="lastName" placeholder="Enter Your Last Name">
+        </label>
+        <label for="email">Email:
+          <input type="email" name="email" placeholder="Enter Your Email">
+        </label>
+      <!-- </fieldset> -->
+      <textarea name="message" rows="8" cols="40" placeholder="Please Enter Your Message Here:"></textarea>
 
-    <form class="contactForm" action="index.html" method="post">
-      <input type="text" name="name" placeholder="Enter Your Name">
-      <input type="email" name="email" placeholder="Enter Your Email">
-      <textarea name="message" rows="8" cols="40"></textarea>
-      <input type="submit" name="send" value="Send">
+      <input type="submit" name="submit" value="Submit">
 
     </form>
 
   </article>
 
-  <nav class="navbar navbar-static-top" id="navBar">
-    <a href="#homePage" id="home">Home</a>
-    <a href="#bioPage" id="bio">Bio</a>
-    <a href="#projectsPage" id="projects">Projects</a>
-    <a href="#techPage" id="technologies">Technologies</a>
-    <a href="#contactPage" id="contact">Contact Me</a>
+  <nav class="nav">
+
+    <ul>
+
+      <li class="current"><a href="#homePage" id="home">Home</a></li>
+      <li><a href="#bioPage" id="bio">Bio</a></li>
+      <li><a href="#projectsPage" id="projects">Projects</a></li>
+      <li><a href="#techPage" id="technologies">Technologies</a></li>
+      <li><a href="#contactPage" id="contact">Contact Me</a></li>
+
+    </ul>
+
   </nav>
 
 
