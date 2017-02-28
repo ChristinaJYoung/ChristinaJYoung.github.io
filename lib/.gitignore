@@ -1,0 +1,6 @@
+<<<<<<< HEAD:lib/.gitignore
+
+=======
+>>>>>>> c789cc0d391ac8c50ac5aa365fa2c7420ff68f24:.gitignore
+node_modules
+.sass-cache
