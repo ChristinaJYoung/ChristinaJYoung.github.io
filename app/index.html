@@ -1,0 +1,138 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Christina Young</title>
+
+  <link rel="stylesheet" type="text/css" href="lib/bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="styles/main.css">
+  <link href='https://fonts.googleapis.com/css?family=Alegreya+Sans:500,400' rel='stylesheet' type='text/css'>
+  <meta name="viewport" content="device=device-width, initial-scale=1.0">
+
+</head>
+
+<body id="content">
+
+  <article id="homePage">
+    <h1>Christina Young</h1>
+    <h3>Software Developer</h3>
+  </article>
+
+  <article class="fade-in" id="projectsPage">
+    <h1>Christina Young</h1>
+    <h3>Technologies:</h3>
+    <div class='row'>
+      <div class="col-md-6">
+        <a href="https://github.com/ChristinaJYoung/MakeUpYourMind" target="_blank"><img id='frontEndProject' src="./images/front-end.png" alt="Make Up Your Mind Capstone"/></a>
+      </div>
+      <div class="cold-md-6">
+        <a href="https://github.com/ChristinaJYoung/movieHistory"><img id='movieHistoryProject' src="./images/movieHistory.png" alt="Movie History Group Project" /></a>
+      </div>
+    </div>
+  </article>
+
+  <article class="fade-in" id="techPage">
+    <a id="about" class="smooth"></a>
+    <h1>Christina Young</h1>
+    <h3>Technologies:</h3>
+    <div class="row" class="listIcons">
+      <div class="col-md-2">
+      </div>
+      <div class="col-md-2">
+        <img src="./images/angular_icon.png" width="100px" height="100px">
+      </div>
+      <div class="col-md-2">
+        <img src="./images/mongo_icon.jpg" width="100px" height="100px">
+      </div>
+      <div class="col-md-2">
+        <img src="./images/sass_icon.png" width="100px" height="100px">
+      </div>
+      <div class="col-md-2">
+        <img src="./images/logo_JavaScript.png" width="100px" height="100px">
+      </div>
+    </div>
+    <div class="row" class="listIcons">
+      <div class="col-md-2">
+      </div>
+      <div class="col-md-2">
+        <img src="./images/HTML5.png" width="100px" height="100px">
+      </div>
+      <div class="col-md-2">
+        <img src="./images/git-logo.png" width="100px" height="100px">
+      </div>
+      <div class="col-md-2">
+        <img src="./images/jquery-icon.png" width="100px" height="100px">
+      </div>
+      <div class="col-md-2">
+        <img src="./images/sqlite.png" width="100px" height="100px">
+      </div>
+    </div>
+    <div class="row" class="listIcons">
+      <div class="col-md-2">
+      </div>
+      <div class="col-md-2">
+        <img src="./images/jade.png" width="100px" height="100px">
+      </div>
+      <div class="col-md-2">
+        <img src="./images/nodejs.png" width="100px" height="100px">
+      </div>
+      <div class="col-md-2">
+        <img src="./images/bootstrap_logo.png" width="100px" height="100px">
+      </div>
+      <div class="col-md-2">
+        <img src="./images/expressjs.png" width="100px" height="100px">
+      </div>
+    </div>
+  </article>
+
+  <article class="fade-in" id="bioPage">
+    <h1>Christina Young</h1>
+    <h3>About Me</h3>
+    <div class="row" class="listIcons">
+      <div class="col-md-6">
+        <p id="aboutMe">Hello! I am a software developer, designer and student.  I got my start in programming with HTML and CSS in high school and have loved it ever since.  I continued learning about code through high school and went on to start designing in college where I studied Web Design at Nashville State. I recently completed an rigorous six month apprenticeship program at Nashville Software School, and I'm very excited to continue both my career and my education.</p>
+      </div>
+      <div id="gridWrapper">
+        <div class="flip-container">
+          <div class="flipper">
+            <div id="front" style="background-image: url(./images/2016_03_02_NSS_Cohort_11_0446_T-c_BW.jpg)">
+              <!-- front content -->
+            </div>
+            <div id="back" style="background-image: url(./images/2016_03_02_NSS_Cohort_11_0434_T.jpg)">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <article class="fade-in" id="contactPage">
+    <h1>Christina Young</h1>
+    <h3>Contact Me</h3>
+
+    <div>Email: <a href="mailto:c_j_y@ymail.com">c_j_y@ymail.com</a></div>
+    <div>Phone: 615-892-0808</div>
+
+  </article>
+
+  <nav class="nav">
+    <ul>
+      <li class="current"><a href="#homePage" id="home">Home</a></li>
+      <li><a href="#bioPage" id="bio">Bio</a></li>
+      <li><a href="#projectsPage" id="projects">Projects</a></li>
+      <li><a href="#techPage" id="technologies">Technologies</a></li>
+      <li><a href="#contactPage" id="contact">Contact Me</a></li>
+    </ul>
+  </nav>
+
+  <script data-main="app/entry" src="./lib/bower_components/requirejs/require.js"></script>
+  <script src="./lib/bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="./lib/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="https://github.com/kswedberg/jquery-smooth-scroll/blob/master/jquery.smooth-scroll.min.js"></script>
+
+</body>
+
+</html>
