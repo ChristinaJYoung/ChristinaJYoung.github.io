@@ -1,0 +1,55 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Christina Young</title>
+
+  <link rel="stylesheet" type="text/css" href="./lib/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+  <link rel="stylesheet" type="text/css" href="styles/main.css">
+  <link href='https://fonts.googleapis.com/css?family=Alegreya+Sans:500,400' rel='stylesheet' type='text/css'>
+  <meta name="viewport" content="device=device-width, initial-scale=1.0">
+
+</head>
+
+<body ng-app="personalPortfolio">
+  <div>
+
+    <div ng-include="'./partials/nav.html'"></div>
+
+    <div id="mainContent" ng-view></div>
+
+  </div>
+
+
+
+  <!-- jquery -->
+  <script src="./lib/jquery/dist/jquery.min.js"></script>
+  <!-- <script src="https://github.com/kswedberg/jquery-smooth-scroll/blob/master/jquery.smooth-scroll.min.js"></script> -->
+
+  <!-- angular -->
+  <script src='./lib/node_modules/angular/angular.min.js'></script>
+  <script src="lib/node_modules/angular-route/angular-route.min.js"></script>
+
+  <!-- Styling - materialize, bootstrap -->
+  <script src="./lib/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+
+  <!-- link to appJS file -->
+  <script src="scripts/app.js"></script>
+
+  <!-- controllers -->
+  <script src="./scripts/controllers/mainCtrl.js"></script>
+  <script src="./scripts/controllers/bioCtrl.js"></script>
+  <script src="./scripts/controllers/designsCtrl.js"></script>
+  <script src="./scripts/controllers/techCtrl.js"></script>
+  <script src="./scripts/controllers/projectsCtrl.js"></script>
+
+
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script> -->
+
+</body>
+
+</html>

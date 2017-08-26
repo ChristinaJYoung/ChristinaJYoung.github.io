@@ -1,138 +1,1463 @@
-<!doctype html>
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="matx no-js"> <!--<![endif]-->
+    <head>
+        <!-- META
+        ========================================================================== -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="Material Design Personal Template">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<html lang="en">
+        <!-- TITLE
+        ========================================================================== -->
+        <title>Ace Development & Design</title>
 
-<head>
-  <meta charset="utf-8">
-  <title>Christina Young</title>
+        <!-- FAVICONS
+        ========================================================================== -->
+        <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon" />
+        <link rel="apple-touch-icon" href="favicon/apple-touch-icon.png" />
+        <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-touch-icon-57x57.png" />
+        <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-touch-icon-72x72.png" />
+        <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-touch-icon-76x76.png" />
+        <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-touch-icon-114x114.png" />
+        <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-touch-icon-120x120.png" />
+        <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-touch-icon-144x144.png" />
+        <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-touch-icon-152x152.png" />
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon-180x180.png" />
 
-  <link rel="stylesheet" type="text/css" href="lib/bower_components/bootstrap/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="styles/main.css">
-  <link href='https://fonts.googleapis.com/css?family=Alegreya+Sans:500,400' rel='stylesheet' type='text/css'>
-  <meta name="viewport" content="device=device-width, initial-scale=1.0">
+        <!-- GOOGLE FONTS
+        ========================================================================== -->
+        <link href='https://fonts.googleapis.com/css?family=Roboto:400,400italic,500,700italic,700,500italic,900' rel='stylesheet' type='text/css'>
 
-</head>
+        <!-- STYLESHEETS
+        ========================================================================== -->
+        <!-- MATERIAL DESIGN ICONIC FONT -->
+        <link rel="stylesheet" href="assets/libs/material-design-iconic-font/css/material-design-iconic-font.min.css">
 
-<body id="content">
+        <!-- IONICONS -->
+        <link rel="stylesheet" href="assets/libs/ionicons/css/ionicons.min.css">
 
-  <article id="homePage">
-    <h1>Christina Young</h1>
-    <h3>Software Developer</h3>
-  </article>
+        <!-- MATERIAL CSS -->
+        <link rel="stylesheet" href="assets/libs/mdl/material.min.css">
 
-  <article class="fade-in" id="projectsPage">
-    <h1>Christina Young</h1>
-    <h3>Technologies:</h3>
-    <div class='row'>
-      <div class="col-md-6">
-        <a href="https://github.com/ChristinaJYoung/MakeUpYourMind" target="_blank"><img id='frontEndProject' src="./images/front-end.png" alt="Make Up Your Mind Capstone"/></a>
-      </div>
-      <div class="cold-md-6">
-        <a href="https://github.com/ChristinaJYoung/movieHistory"><img id='movieHistoryProject' src="./images/movieHistory.png" alt="Movie History Group Project" /></a>
-      </div>
-    </div>
-  </article>
+        <!-- OWL CAROUSEL -->
+        <link rel="stylesheet" href="assets/libs/owl-carousel/owl.carousel.min.css">
+        <link rel="stylesheet" href="assets/libs/owl-carousel/owl.theme.default.min.css">
 
-  <article class="fade-in" id="techPage">
-    <a id="about" class="smooth"></a>
-    <h1>Christina Young</h1>
-    <h3>Technologies:</h3>
-    <div class="row" class="listIcons">
-      <div class="col-md-2">
-      </div>
-      <div class="col-md-2">
-        <img src="./images/angular_icon.png" width="100px" height="100px">
-      </div>
-      <div class="col-md-2">
-        <img src="./images/mongo_icon.jpg" width="100px" height="100px">
-      </div>
-      <div class="col-md-2">
-        <img src="./images/sass_icon.png" width="100px" height="100px">
-      </div>
-      <div class="col-md-2">
-        <img src="./images/logo_JavaScript.png" width="100px" height="100px">
-      </div>
-    </div>
-    <div class="row" class="listIcons">
-      <div class="col-md-2">
-      </div>
-      <div class="col-md-2">
-        <img src="./images/HTML5.png" width="100px" height="100px">
-      </div>
-      <div class="col-md-2">
-        <img src="./images/git-logo.png" width="100px" height="100px">
-      </div>
-      <div class="col-md-2">
-        <img src="./images/jquery-icon.png" width="100px" height="100px">
-      </div>
-      <div class="col-md-2">
-        <img src="./images/sqlite.png" width="100px" height="100px">
-      </div>
-    </div>
-    <div class="row" class="listIcons">
-      <div class="col-md-2">
-      </div>
-      <div class="col-md-2">
-        <img src="./images/jade.png" width="100px" height="100px">
-      </div>
-      <div class="col-md-2">
-        <img src="./images/nodejs.png" width="100px" height="100px">
-      </div>
-      <div class="col-md-2">
-        <img src="./images/bootstrap_logo.png" width="100px" height="100px">
-      </div>
-      <div class="col-md-2">
-        <img src="./images/expressjs.png" width="100px" height="100px">
-      </div>
-    </div>
-  </article>
+        <!-- MAGNIFIC POPUP -->
+        <link rel="stylesheet" href="assets/libs/magnific-popup/magnific-popup.css">
 
-  <article class="fade-in" id="bioPage">
-    <h1>Christina Young</h1>
-    <h3>About Me</h3>
-    <div class="row" class="listIcons">
-      <div class="col-md-6">
-        <p id="aboutMe">Hello! I am a software developer, designer and student.  I got my start in programming with HTML and CSS in high school and have loved it ever since.  I continued learning about code through high school and went on to start designing in college where I studied Web Design at Nashville State. I recently completed an rigorous six month apprenticeship program at Nashville Software School, and I'm very excited to continue both my career and my education.</p>
-      </div>
-      <div id="gridWrapper">
-        <div class="flip-container">
-          <div class="flipper">
-            <div id="front" style="background-image: url(./images/2016_03_02_NSS_Cohort_11_0446_T-c_BW.jpg)">
-              <!-- front content -->
-            </div>
-            <div id="back" style="background-image: url(./images/2016_03_02_NSS_Cohort_11_0434_T.jpg)">
-            </div>
-          </div>
+        <!-- SWEETALERT -->
+        <link rel="stylesheet" href="assets/libs/sweetalert/sweet-alert.min.css">
+        <link rel="stylesheet" href="assets/libs/sweetalert/ie9.css">
+
+        <!-- ANIMATE -->
+        <link rel="stylesheet" href="assets/libs/animate/animate.min.css">
+
+        <!-- COMMON CSS -->
+        <link rel="stylesheet" href="assets/css/common.css">
+
+        <!-- MAIN CSS -->
+        <link rel="stylesheet" href="assets/css/main.css">
+
+        <!-- HEADER SCRIPTS
+        ========================================================================== -->
+        <!--[if lt IE 9]>
+            <script src="assets/js/vendor/html5shiv.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- START PRELOADER
+        ========================================================================== -->
+        <div id="loader" class="preloader">
+            <div class="preloader__inner"></div>
         </div>
-      </div>
-    </div>
-  </article>
+        <!-- END PRELOADER -->
 
-  <article class="fade-in" id="contactPage">
-    <h1>Christina Young</h1>
-    <h3>Contact Me</h3>
+        <!-- START HAMBURGER
+        ========================================================================== -->
+        <div class="mobile-menu-trigger visible-sm visible-xs visible-xxs">
+            <button class="hamburger hamburger--spin" type="button">
+                <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                </span>
+            </button>
+        </div>
+        <!-- END HAMBURGER -->
 
-    <div>Email: <a href="mailto:c_j_y@ymail.com">c_j_y@ymail.com</a></div>
-    <div>Phone: 615-892-0808</div>
+        <!-- START MOBILE MENU
+        ========================================================================== -->
+        <nav class="mobile-menu visible-sm visible-xs visible-xxs">
+            <div class="mobile-menu__header">
+                <div class="mobile-menu__header__content">
+                    <img src="img/mobile-menu-header-thumb.jpg" alt="mobile-menu-header-thumb">
+                    <h4 class="m-t-xxs-20">Christina Young</h4>
+                    <h5>Web Designer & Software Developer</h5>
+                </div>
+            </div>
+            <ul>
+                <li>
+                    <a href="#about" class="menu-smooth-scroll">
+                        <i class="zmdi zmdi-account"></i>
+                        About
+                    </a>
+                </li>
+                <li>
+                    <a href="#resume" class="menu-smooth-scroll">
+                        <i class="zmdi zmdi-file-text"></i>
+                        Resume
+                    </a>
+                </li>
+                <li>
+                    <a href="#services" class="menu-smooth-scroll">
+                        <i class="zmdi zmdi-settings"></i>
+                        Services
+                    </a>
+                </li>
+                <li>
+                    <a href="#logo" class="menu-smooth-scroll">
+                        <i class="zmdi zmdi-case"></i>
+                        Logos
+                    </a>
+                </li>
+                <li>
+                    <a href="#team" class="menu-smooth-scroll">
+                        <i class="zmdi zmdi-accounts"></i>
+                        Logos
+                    </a>
+                </li>
+                <li>
+                    <a href="#contact" class="menu-smooth-scroll">
+                        <i class="zmdi zmdi-email"></i>
+                        Contact
+                    </a>
+                </li>
+                <li class="dropdown-item">
+                    <a href="javascript:void(0)">
+                        <i class="zmdi zmdi-collection-item"></i>
+                        More Pages
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="about.html">About</a></li>
+                        <li class="dropdown-item">
+                            <a href="javascript:void(0)">Portfolio Pages</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="portfolio/single-pages/portfolio-single-01.html">Slider Style</a></li>
+                                <li><a href="portfolio/single-pages/portfolio-single-02.html">List Style</a></li>
+                                <li><a href="portfolio/single-pages/portfolio-single-03.html">List Full Style</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <li><a href="contactMe.html">Contact Me</a></li>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="mobile-menu__footer">
+                <h4>Follow Me</h4>
+                <ul>
+                    <li>
+                        <a href="javascript:void(0)">
+                            <i class="zmdi zmdi-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">
+                            <i class="zmdi zmdi-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">
+                            <i class="zmdi zmdi-google-plus"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">
+                            <i class="zmdi zmdi-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">
+                            <i class="zmdi zmdi-dribbble"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">
+                            <i class="zmdi zmdi-behance"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- END MOBILE MENU -->
 
-  </article>
+        <!-- START SITE NAVBAR
+        ========================================================================== -->
+        <header class="site-navbar">
 
-  <nav class="nav">
-    <ul>
-      <li class="current"><a href="#homePage" id="home">Home</a></li>
-      <li><a href="#bioPage" id="bio">Bio</a></li>
-      <li><a href="#projectsPage" id="projects">Projects</a></li>
-      <li><a href="#techPage" id="technologies">Technologies</a></li>
-      <li><a href="#contactPage" id="contact">Contact Me</a></li>
-    </ul>
-  </nav>
+            <!-- START LOGO -->
+            <a href="index.html" class="site-logo">
+                <img class="site-logo__image-1" src="images/SingleLogo.png" width="200" height="200" alt="Ace Development & Design Mufreesboro Logo">
+                <img class="site-logo__image-2" src="images/SingleLogo2.png" width="100" height="100" alt="Ace Development & Design Mufreesboro Logo">
+            </a>
+            <!-- END LOGO -->
 
-  <script data-main="app/entry" src="./lib/bower_components/requirejs/require.js"></script>
-  <script src="./lib/bower_components/jquery/dist/jquery.min.js"></script>
-  <script src="./lib/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-  <script src="https://github.com/kswedberg/jquery-smooth-scroll/blob/master/jquery.smooth-scroll.min.js"></script>
+            <!-- START NAV -->
+            <nav class="site-nav hidden-xxs hidden-xs hidden-sm">
+                <ul class="cl-effect-5">
+                    <li>
+                        <a href="#about" class="menu-smooth-scroll">
+                            <span data-hover="About">
+                                <span>About</span>
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#resume" class="menu-smooth-scroll">
+                            <span data-hover="Resume">
+                                <span>Resume</span>
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#services" class="menu-smooth-scroll">
+                            <span data-hover="Services">
+                                <span>Services</span>
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#portfolio" class="menu-smooth-scroll">
+                            <span data-hover="Portfolio">
+                                <span>Portfolio</span>
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#logos" class="menu-smooth-scroll">
+                            <span data-hover="Logos">
+                                <span>Logos</span>
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="menu-smooth-scroll">
+                            <span data-hover="Contact">
+                                <span>Contact</span>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="dropdown-item">
+                        <a href="javascript:void(0)">
+                            <span data-hover="More Pages">
+                                <span>More Pages</span>
+                            </span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="footer-2.html">Footer 2</a></li>
+                            <li class="dropdown-item">
+                                <a href="javascript:void(0)">Portfolio Pages</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="portfolio/single-pages/portfolio-single-01.html">Slider Style</a></li>
+                                    <li><a href="portfolio/single-pages/portfolio-single-02.html">List Style</a></li>
+                                    <li><a href="portfolio/single-pages/portfolio-single-03.html">List Full Style</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">Contact Me</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <!-- END NAV -->
+        </header>
+        <!-- END SITE NAVBAR -->
 
-</body>
+        <!-- START BANNER
+        ========================================================================== -->
+        <section id="home" class="banner section-main overflow-hidden section">
+            <div class="bg-parallax" data-top="transform: translate3d(0px, 0px, 0px); opacity: 1;" data-top-bottom="transform: translate3d(0px, 250px, 0px); opacity: 0;"></div>
+            <div class="banner__v-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xxs-12">
+                            <div class="banner__content">
+                                <div class="db wow fadeInUpSmall">
+                                    <h2><span>Welcome To:</span> Ace Development & Design </h2>
+                                </div>
+                                <ul class="wow fadeInUpSmall" data-wow-delay=".15s">
+                                    <li class="hidden-xxs">Designer<span>-</span></li>
+                                    <li class="hidden-xxs">Software Development<span>-</span></li>
+                                    <li>Web Developer</li>
+                                </ul>
+                                <div class="db m-t-xxs-20 m-t-xs-30 m-t-sm-60 wow fadeInUpSmall" data-wow-delay=".3s">
+                                    <a href="#about" class="mdl-button mdl-button--large mdl-js-button mdl-js-ripple-effect menu-smooth-scroll">Get to know me</a>
+                                </div>
 
+                                <!-- POPUP YOUTUBE VIDEO -->
+                                <!-- <a href="https://www.youtube.com/watch?v=kQT2y3UiosQ" class="popup-youtube m-t-xxs-20 m-t-xs-30 m-t-sm-60 wow fadeInUpSmall" data-wow-delay=".45s"><i class="zmdi zmdi-play"></i></a> -->
+                            </div>
+                        </div><!-- /.col-xxs-12 -->
+                    </div><!-- /.row -->
+                </div><!-- /.container -->
+            </div>
+        </section>
+        <!-- END BANNER -->
+
+        <!-- ABOUT
+        ========================================================================== -->
+        <div id="about" class="section-main section">
+
+            <!-- START PROFILE
+            ========================================================================== -->
+            <section class="profile p-t-md-140 p-b-md-140 p-t-sm-100 p-b-sm-100 p-t-xxs-60 p-b-xxs-60">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 col-md-offset-1 col-sm-6">
+                            <div class="profile__picture">
+                                <img src="images/profilePic1.jpg" alt="profile-picture">
+                            </div>
+                        </div><!-- /.col-md-4 col-md-offset-1 -->
+                        <div class="col-md-6 col-sm-6">
+                            <div class="p-l-md-30">
+                                <div class="profile__short-desc m-b-xxs-30 m-t-xxs-30 m-t-sm-0 m-t-lg-25">
+                                    <h2 class="m-b-xxs-25 wow fadeInDownSmall">Hello,</h2>
+                                    <p class="p-b-xxs-20">
+                                        My name is Christina Young. I am a software and website developer/designer. I started programming with HTML and CSS in high school and have loved it ever since. I continued learning about code through high school and went on to learn design in college where I earned my Associate's Degree in Web Design at Nashville State. In 2016 I also completed a rigorous six month apprenticeship program at Nashville Software Schoo (NSS).  I went on to work for NSS as a Teacher's Assistant for another 6 months.  My passion is programming and animals.  I have been volunteering to make websites for local animal rescues and plan to continue combining my two favorite things.  I'm currently starting my own web development business and I'm very excited to continue both my career and my education.
+                                    </p>
+                                </div>
+                                <div class="profile__about">
+                                    <ul>
+                                        <li><span>Name:</span> Christina Young</li>
+                                        <li><span>Job Title:</span>Web & Software Design/Development</li>
+                                        <li><span>Age:</span> 24</li>
+                                        <li><span>Email:</span> c_j_y@ymail.com</li>
+                                    </ul>
+                                    <div class="profile__about__buttons m-t-xxs-15">
+                                        <a href="javascript:void(0)" class="mdl-button mdl-js-button mdl-js-ripple-effect wow fadeInLeftSmall">
+                                            <i class="zmdi zmdi-download"></i>
+                                            Download CV
+                                        </a>
+                                        <a href="#contact" class="mdl-button mdl-button--gray mdl-js-button mdl-js-ripple-effect menu-smooth-scroll wow fadeInLeftSmall" data-wow-delay=".15s">
+                                            <i class="zmdi zmdi-mail-send"></i>
+                                            Hire Me
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- /.row -->
+                </div><!-- /.container -->
+            </section>
+            <!-- END PROFILE -->
+
+            <!-- START SKILLS
+            ========================================================================== -->
+            <section class="skills section-padding">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-8 col-sm-offset-2 col-md-4 col-md-offset-0">
+                            <!-- START SECTION HEADING -->
+                            <div class="section-heading section-heading--left m-b-sm-60 m-b-xxs-30 m-b-md-0">
+                                <h2 class="wow fadeInLeftSmall">My Skills</h2>
+                                <p class="wow fadeInLeftSmall" data-wow-delay=".2s">
+                                    These are some of the languages and technologies I've learned over my years of education (From high school through college)
+                                </p>
+                            </div>
+                            <!-- END SECTION HEADING -->
+                        </div><!-- /.col-sm-12 col-md-4 -->
+                        <div class="col-sm-12 col-md-8">
+                            <div class="skill-slider owl-carousel" data-owl-options='{"margin":20,"loop":false,"smartSpeed":900,"dots":false,"nav":true,"navSpeed":900,"responsiveClass":true,"responsive":{"0":{"items":1},"480":{"items":2},"768":{"items":3},"992":{"items":2},"1200":{"items":3}}}'>
+                                <div class="single-skill text-center wow fadeInUp">
+                                    <div class="single-skill__v-center">
+                                        <i class="zmdi zmdi-drink"></i>
+                                        <div class="progress-bar">
+                                            <h4 class="progress-bar__label">HTML - <span>90%</span></h4>
+                                            <div class="progress-bar__bar">
+                                                <div class="progress-bar__bar__active"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="single-skill text-center wow fadeInUp" data-wow-delay=".3s">
+                                    <div class="single-skill__v-center">
+                                        <i class="zmdi zmdi-boat"></i>
+                                        <div class="progress-bar">
+                                            <h4 class="progress-bar__label">Design - <span>90%</span></h4>
+                                            <div class="progress-bar__bar">
+                                                <div class="progress-bar__bar__active"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="single-skill text-center wow fadeInUp" data-wow-delay=".4s">
+                                    <div class="single-skill__v-center">
+                                        <i class="zmdi zmdi-mouse"></i>
+                                        <div class="progress-bar">
+                                            <h4 class="progress-bar__label">JavaScript - <span>85%</span></h4>
+                                            <div class="progress-bar__bar">
+                                                <div class="progress-bar__bar__active"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="single-skill text-center wow fadeInUp" data-wow-delay=".1s">
+                                    <div class="single-skill__v-center">
+                                        <i class="zmdi zmdi-mouse"></i>
+                                        <div class="progress-bar">
+                                            <h4 class="progress-bar__label">Photoshop - <span>60%</span></h4>
+                                            <div class="progress-bar__bar">
+                                                <div class="progress-bar__bar__active"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="single-skill text-center wow fadeInUp" data-wow-delay=".2s">
+                                    <div class="single-skill__v-center">
+                                        <i class="zmdi zmdi-boat"></i>
+                                        <div class="progress-bar">
+                                            <h4 class="progress-bar__label">Illustrator - <span>60%</span></h4>
+                                            <div class="progress-bar__bar">
+                                                <div class="progress-bar__bar__active"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="single-skill text-center wow fadeInUp" data-wow-delay=".5s">
+                                    <div class="single-skill__v-center">
+                                        <i class="zmdi zmdi-boat"></i>
+                                        <div class="progress-bar">
+                                            <h4 class="progress-bar__label">jQuery - <span>90%</span></h4>
+                                            <div class="progress-bar__bar">
+                                                <div class="progress-bar__bar__active"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="single-skill text-center wow fadeInUp" data-wow-delay=".6s">
+                                    <div class="single-skill__v-center">
+                                        <i class="zmdi zmdi-drink"></i>
+                                        <div class="progress-bar">
+                                            <h4 class="progress-bar__label">WordPress  - <span>85%</span></h4>
+                                            <div class="progress-bar__bar">
+                                                <div class="progress-bar__bar__active"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="single-skill text-center wow fadeInUp" data-wow-delay=".7s">
+                                    <div class="single-skill__v-center">
+                                        <i class="zmdi zmdi-mouse"></i>
+                                        <div class="progress-bar">
+                                            <h4 class="progress-bar__label">CSS - <span>95%</span></h4>
+                                            <div class="progress-bar__bar">
+                                                <div class="progress-bar__bar__active"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="single-skill text-center wow fadeInUp" data-wow-delay=".8s">
+                                    <div class="single-skill__v-center">
+                                        <i class="zmdi zmdi-boat"></i>
+                                        <div class="progress-bar">
+                                            <h4 class="progress-bar__label">SASS - <span>90%</span></h4>
+                                            <div class="progress-bar__bar">
+                                                <div class="progress-bar__bar__active"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- /.col-sm-12 col-md-8 -->
+                    </div><!-- /.row -->
+                </div><!-- /.container -->
+            </section>
+            <!-- END SKILLS -->
+        </div>
+        <!-- END ABOUT -->
+
+        <!-- START RESUME
+        ========================================================================== -->
+        <section id="resume" class="resume section-padding section-main section">
+            <div class="container">
+
+                <!-- START SECTION HEADING -->
+                <div class="section-heading text-center m-b-md-80 m-b-xxs-30 m-b-sm-45">
+                    <h2 class="wow fadeInUpSmall">My Resume</h2>
+                    <h3 class="wow fadeInUpSmall" data-wow-delay=".15s">Previous associations that helped to gather experience.</h3>
+                </div>
+                <!-- END SECTION HEADING -->
+
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1">
+                        <!-- MDL TABS -->
+                        <div class="mdl-tabs mdl-js-tabs mdl-js-ripple-effect resume-mdl-tabs">
+
+                            <!-- MDL TABS BAR -->
+                            <div class="mdl-tabs__tab-bar">
+                                <a href="#experience-panel" class="mdl-tabs__tab is-active">
+                                    <i class="zmdi zmdi-case"></i>
+                                    Experience
+                                </a>
+                                <a href="#education-panel" class="mdl-tabs__tab">
+                                    <i class="zmdi zmdi-book"></i>
+                                    Education
+                                </a>
+                                <a href="#award-panel" class="mdl-tabs__tab">
+                                    <i class="zmdi zmdi-graduation-cap"></i>
+                                    Award
+                                </a>
+                            </div>
+
+                            <div class="mdl-tabs__wrapper wow fadeInUpSmall">
+                                <!-- MDL TABS PANEL -->
+                                <div class="mdl-tabs__panel is-active" id="experience-panel">
+                                    <div class="row resume-masonry">
+                                        <div class="col-sm-6 resume-masonry__item">
+                                            <div class="card">
+                                                <div class="card__header">
+                                                    <div class="card__header__left">
+                                                        <div class="card__header__left__icon h-center">
+                                                            <div class="v-center">
+                                                                <i class="zmdi zmdi-google"></i>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card__header__left__text">
+                                                            <h4>One Black Dog Media</h4>
+                                                            <p>UX/UI Designer</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card__header__right">
+                                                        <span>2005 - 2007</span>
+                                                    </div>
+                                                </div>
+                                                <div class="card__body">
+                                                    <p>
+                                                        Google is an American multinational technology company specializing in Internet-related services
+                                                    </p>
+                                                    <ul>
+                                                        <li>
+                                                            Photoshop
+                                                        </li>
+                                                        <li>
+                                                            Illustrator
+                                                        </li>
+                                                        <li>
+                                                            UX
+                                                        </li>
+                                                    </ul>
+                                                    <img src="img/resume/experience/1.jpg" alt="1">
+                                                </div>
+                                            </div>
+                                        </div><!-- /.col-sm-6 -->
+                                        <div class="col-sm-6 resume-masonry__item">
+                                            <div class="card">
+                                                <div class="card__header">
+                                                    <div class="card__header__left">
+                                                        <div class="card__header__left__icon h-center">
+                                                            <div class="v-center">
+                                                                <i class="zmdi zmdi-facebook"></i>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card__header__left__text">
+                                                            <h4>Nashville Software School</h4>
+                                                            <p>UX/UI Designer</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card__header__right">
+                                                        <span>2008 - 2010</span>
+                                                    </div>
+                                                </div>
+                                                <div class="card__body">
+                                                    <p>
+                                                        Facebook is a for-profit corporation and online social networking service based in Menlo Park, California, United States.
+                                                    </p>
+                                                    <ul>
+                                                        <li>
+                                                            Photoshop
+                                                        </li>
+                                                        <li>
+                                                            Illustrator
+                                                        </li>
+                                                        <li>
+                                                            UX
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div><!-- /.col-sm-6 -->
+                                        <div class="col-sm-6 resume-masonry__item">
+                                            <div class="card">
+                                                <div class="card__header">
+                                                    <div class="card__header__left">
+                                                        <div class="card__header__left__icon h-center">
+                                                            <div class="v-center">
+                                                                <img src="img/resume/experience/envato.png" alt="envato">
+                                                            </div>
+                                                        </div>
+                                                        <div class="card__header__left__text">
+                                                            <h4>Durik Advertising</h4>
+                                                            <p>UX/UI Designer</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card__header__right">
+                                                        <span>2011 - 2015</span>
+                                                    </div>
+                                                </div>
+                                                <div class="card__body">
+                                                    <p>
+                                                        Envato operates a group of digital marketplaces that sell creative assets for web designers, including themes, graphics, video, and audio.
+                                                    </p>
+                                                    <ul>
+                                                        <li>
+                                                            Photoshop
+                                                        </li>
+                                                        <li>
+                                                            Illustrator
+                                                        </li>
+                                                        <li>
+                                                            UX
+                                                        </li>
+                                                    </ul>
+                                                    <img src="img/resume/experience/2.jpg" alt="experience-2">
+                                                </div>
+                                            </div>
+                                        </div><!-- /.col-sm-6 -->
+                                        <div class="col-sm-6 resume-masonry__item">
+                                            <div class="card">
+                                                <div class="card__header">
+                                                    <div class="card__header__left">
+                                                        <div class="card__header__left__icon h-center">
+                                                            <div class="v-center">
+                                                                <i class="zmdi zmdi-apple"></i>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card__header__left__text">
+                                                            <h4>Apple</h4>
+                                                            <p>UX/UI Designer</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card__header__right">
+                                                        <span>2015 - 2016</span>
+                                                    </div>
+                                                </div>
+                                                <div class="card__body">
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit eos, in ut facere similique, distinctio!
+                                                    </p>
+                                                    <ul>
+                                                        <li>
+                                                            Photoshop
+                                                        </li>
+                                                        <li>
+                                                            Illustrator
+                                                        </li>
+                                                        <li>
+                                                            UX
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div><!-- /.col-sm-6 -->
+                                    </div><!-- /.row -->
+                                </div>
+
+                                <!-- MDL TABS PANEL -->
+                                <div class="mdl-tabs__panel" id="education-panel">
+                                    <div class="row resume-masonry">
+                                        <div class="col-sm-6 resume-masonry__item">
+                                            <div class="card">
+                                                <div class="card__header">
+                                                    <div class="card__header__left">
+                                                        <div class="card__header__left__icon h-center">
+                                                            <div class="v-center">
+                                                                <i class="zmdi zmdi-book"></i>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card__header__left__text">
+                                                            <h4>Harvard University</h4>
+                                                            <p>B.A. and M.S., Computer Science</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card__header__right">
+                                                        <span>1990 -1994</span>
+                                                    </div>
+                                                </div>
+                                                <div class="card__body">
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati sed ipsam, reprehenderit iure quia maxime possimus cumque!
+                                                    </p>
+                                                    <ul>
+                                                        <li>
+                                                            Photoshop
+                                                        </li>
+                                                        <li>
+                                                            Illustrator
+                                                        </li>
+                                                        <li>
+                                                            UX
+                                                        </li>
+                                                    </ul>
+                                                    <img src="img/resume/education/1.png" alt="1">
+                                                </div>
+                                            </div>
+                                        </div><!-- /.col-sm-6 -->
+                                        <div class="col-sm-6 resume-masonry__item">
+                                            <div class="card">
+                                                <div class="card__header">
+                                                    <div class="card__header__left">
+                                                        <div class="card__header__left__icon h-center">
+                                                            <div class="v-center">
+                                                                <i class="zmdi zmdi-book"></i>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card__header__left__text">
+                                                            <h4>King's Academy</h4>
+                                                            <p>Primary School</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card__header__right">
+                                                        <span>2015 - 2016</span>
+                                                    </div>
+                                                </div>
+                                                <div class="card__body">
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit eos, in ut facere similique, distinctio!
+                                                    </p>
+                                                    <ul>
+                                                        <li>
+                                                            Photoshop
+                                                        </li>
+                                                        <li>
+                                                            Illustrator
+                                                        </li>
+                                                        <li>
+                                                            UX
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div><!-- /.col-sm-6 -->
+                                        <div class="col-sm-6 resume-masonry__item">
+                                            <div class="card">
+                                                <div class="card__header">
+                                                    <div class="card__header__left">
+                                                        <div class="card__header__left__icon h-center">
+                                                            <div class="v-center">
+                                                                <i class="zmdi zmdi-book"></i>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card__header__left__text">
+                                                            <h4>Hackley School</h4>
+                                                            <p>Highschool Diploma</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card__header__right">
+                                                        <span>1984 - 1990</span>
+                                                    </div>
+                                                </div>
+                                                <div class="card__body">
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores ex, soluta magnam explicabo expedita maiores.
+                                                    </p>
+                                                    <ul>
+                                                        <li>
+                                                            Photoshop
+                                                        </li>
+                                                        <li>
+                                                            Illustrator
+                                                        </li>
+                                                        <li>
+                                                            UX
+                                                        </li>
+                                                    </ul>
+                                                    <img src="img/resume/education/2.png" alt="2">
+                                                </div>
+                                            </div>
+                                        </div><!-- /.col-sm-6 -->
+                                        <div class="col-sm-6 resume-masonry__item">
+                                            <div class="card">
+                                                <div class="card__header">
+                                                    <div class="card__header__left">
+                                                        <div class="card__header__left__icon h-center">
+                                                            <div class="v-center">
+                                                                <i class="zmdi zmdi-book"></i>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card__header__left__text">
+                                                            <h4>DeAnza College</h4>
+                                                            <p>Bachelor Degree</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card__header__right">
+                                                        <span>2015 - 2016</span>
+                                                    </div>
+                                                </div>
+                                                <div class="card__body">
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit eos, in ut facere similique, distinctio!
+                                                    </p>
+                                                    <ul>
+                                                        <li>
+                                                            Photoshop
+                                                        </li>
+                                                        <li>
+                                                            Illustrator
+                                                        </li>
+                                                        <li>
+                                                            UX
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div><!-- /.col-sm-6 -->
+                                    </div><!-- /.row -->
+                                </div>
+
+                                <!-- MDL TABS PANEL -->
+                                <div class="mdl-tabs__panel" id="award-panel">
+                                    <div class="row resume-masonry">
+                                        <div class="col-sm-6 resume-masonry__item">
+                                            <div class="card">
+                                                <div class="card__header">
+                                                    <div class="card__header__left">
+                                                        <div class="card__header__left__icon h-center">
+                                                            <div class="v-center">
+                                                                <i class="zmdi zmdi-graduation-cap"></i>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card__header__left__text">
+                                                            <h4>State level chapion on merit</h4>
+                                                            <p>Primary School</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card__header__right">
+                                                        <span>2005</span>
+                                                    </div>
+                                                </div>
+                                                <div class="card__body">
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores ex, soluta magnam explicabo expedita maiores.
+                                                    </p>
+                                                    <ul>
+                                                        <li>
+                                                            Photoshop
+                                                        </li>
+                                                        <li>
+                                                            Illustrator
+                                                        </li>
+                                                        <li>
+                                                            UX
+                                                        </li>
+                                                    </ul>
+                                                    <img src="img/resume/award/2.png" alt="2">
+                                                </div>
+                                            </div>
+                                        </div><!-- /.col-sm-6 -->
+                                        <div class="col-sm-6 resume-masonry__item">
+                                            <div class="card">
+                                                <div class="card__header">
+                                                    <div class="card__header__left">
+                                                        <div class="card__header__left__icon h-center">
+                                                            <div class="v-center">
+                                                                <i class="zmdi zmdi-graduation-cap"></i>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card__header__left__text">
+                                                            <h4>Top rated designer</h4>
+                                                            <p>Design Lab</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card__header__right">
+                                                        <span>1010</span>
+                                                    </div>
+                                                </div>
+                                                <div class="card__body">
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit eos, in ut facere similique, distinctio!
+                                                    </p>
+                                                    <ul>
+                                                        <li>
+                                                            Photoshop
+                                                        </li>
+                                                        <li>
+                                                            Illustrator
+                                                        </li>
+                                                        <li>
+                                                            UX
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div><!-- /.col-sm-6 -->
+                                        <div class="col-sm-6 resume-masonry__item">
+                                            <div class="card">
+                                                <div class="card__header">
+                                                    <div class="card__header__left">
+                                                        <div class="card__header__left__icon h-center">
+                                                            <div class="v-center">
+                                                                <i class="zmdi zmdi-graduation-cap"></i>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card__header__left__text">
+                                                            <h4>Designer of the year</h4>
+                                                            <p>The net magazine</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card__header__right">
+                                                        <span>2016</span>
+                                                    </div>
+                                                </div>
+                                                <div class="card__body">
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati sed ipsam, reprehenderit iure quia maxime possimus cumque!
+                                                    </p>
+                                                    <ul>
+                                                        <li>
+                                                            Photoshop
+                                                        </li>
+                                                        <li>
+                                                            Illustrator
+                                                        </li>
+                                                        <li>
+                                                            UX
+                                                        </li>
+                                                    </ul>
+                                                    <img src="img/resume/award/1.png" alt="1">
+                                                </div>
+                                            </div>
+                                        </div><!-- /.col-sm-6 -->
+                                        <div class="col-sm-6 resume-masonry__item">
+                                            <div class="card">
+                                                <div class="card__header">
+                                                    <div class="card__header__left">
+                                                        <div class="card__header__left__icon h-center">
+                                                            <div class="v-center">
+                                                                <i class="zmdi zmdi-graduation-cap"></i>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card__header__left__text">
+                                                            <h4>Best employee of the year</h4>
+                                                            <p>2016</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card__header__right">
+                                                        <span>2015 - 2016</span>
+                                                    </div>
+                                                </div>
+                                                <div class="card__body">
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit eos, in ut facere similique, distinctio!
+                                                    </p>
+                                                    <ul>
+                                                        <li>
+                                                            Photoshop
+                                                        </li>
+                                                        <li>
+                                                            Illustrator
+                                                        </li>
+                                                        <li>
+                                                            UX
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div><!-- /.col-sm-6 -->
+                                    </div><!-- /.row -->
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- END RESUME -->
+
+        <!-- START SERVICES
+        ========================================================================== -->
+        <div id="services" class="services section-main section-padding overflow-hidden section">
+
+            <div class="bg-parallax" data-center="transform: translate3d(0px, -50%, 0px)" data-top-bottom="transform: translate3d(0px, -25%, 0px)" data-bottom-top="transform: translate3d(0px, -75%, 0px)"></div>
+
+            <div class="container">
+
+                <!-- START SECTION HEADING -->
+                <div class="section-heading section-heading--white text-center m-b-md-80 m-b-xxs-30 m-b-sm-45">
+                    <h2 class="wow fadeInUpSmall">Services</h2>
+                    <h3 class="wow fadeInUpSmall" data-wow-delay=".15s">These are the services I provide to my customers.</h3>
+                </div>
+                <!-- END SECTION HEADING -->
+
+                <!-- OWL CAROUSEL -->
+                <div class="service-slider owl-carousel" data-owl-options='{"margin":30,"loop":false,"smartSpeed":900,"autoplay":false,"autoplaySpeed":900,"autoplayTimeout":3000,"dots":false,"nav":true,"navSpeed":900,"responsiveClass":true,"responsive":{"0":{"items":1},"768":{"items":2},"992":{"items":3}}}'>
+                    <div class="single-service wow fadeInUp">
+                        <i class="zmdi zmdi-laptop-chromebook"></i>
+                        <h4>Web Design</h4>
+                        <p>
+                            I started creating websites in high school and have my web design degree. Let's design your company's website!
+                        </p>
+                    </div>
+                    <div class="single-service wow fadeInUp" data-wow-delay=".1s">
+                        <i class="zmdi zmdi-brush"></i>
+                        <h4>Logo Design</h4>
+                        <p>
+                            I've created multiple logos in my Illustrator class at Nashville State.  I'd love to help you create yours!
+                        </p>
+                    </div>
+                    <div class="single-service wow fadeInUp" data-wow-delay=".2s">
+                        <i class="zmdi zmdi-camera"></i>
+                        <h4>Photography</h4>
+                        <p>
+                            I love photography and have taken a few classes. I would love to do small photography jobs.
+                        </p>
+                    </div>
+                    <div class="single-service wow fadeInUp" data-wow-delay=".3s">
+                        <i class="zmdi zmdi-laptop-chromebook"></i>
+                        <h4>Software Development</h4>
+                        <p>
+                            I don't just do websites, I can make applications as well.  Contact me if you have an app you want created!
+                        </p>
+                    </div>
+                    <div class="single-service wow fadeInUp" data-wow-delay=".4s">
+                        <i class="zmdi zmdi-edit"></i>
+                        <h4>Copyright</h4>
+                        <p>
+                            I have experience writing copyright for websites.  With your input and approval I can write the content for your website!
+                        </p>
+                    </div>
+                    <div class="single-service wow fadeInUp" data-wow-delay=".5s">
+                        <i class="zmdi zmdi-camera"></i>
+                        <h4>SEO</h4>
+                        <p>
+                            Search Engine Optimazation is an important part of getting your website noticed.  I can help you get your ranking up!
+                        </p>
+                    </div>
+                    <div class="single-service wow fadeInUp" data-wow-delay=".6s">
+                        <i class="zmdi zmdi-laptop-chromebook"></i>
+                        <h4>Web Updates</h4>
+                        <p>
+                            Have an old website that needs a fresh look or needs to be made mobile friendly?  Contact me and I'll get it done!
+                        </p>
+                    </div>
+                    <!-- <div class="single-service wow fadeInUp" data-wow-delay=".7s">
+                        <i class="zmdi zmdi-brush"></i>
+                        <h4>Branding</h4>
+                        <p>
+                            Design allows me to speak any language. Solving problems through type, space.
+                        </p>
+                    </div>
+                    <div class="single-service wow fadeInUp" data-wow-delay=".8s">
+                        <i class="zmdi zmdi-camera"></i>
+                        <h4>Photography</h4>
+                        <p>
+                            Design allows me to speak any language. Solving problems through type, space.
+                        </p>
+                    </div> -->
+                </div>
+            </div><!-- /.container -->
+        </div>
+        <!-- END SERVICES -->
+
+
+        <!-- START PORTFOLIO
+        ========================================================================== -->
+        <section id="portfolio" class="portfolio section-main section-padding section">
+            <div class="container">
+
+                <!-- START SECTION HEADING -->
+                <div class="section-heading text-center">
+                    <h2 class="wow fadeInUpSmall">My Portfolio</h2>
+                    <h3 class="wow fadeInUpSmall" data-wow-delay=".15s">Previous associations that helped to gather experience.</h3>
+                </div>
+                <!-- END SECTION HEADING -->
+
+                <div data-portfolio-url="portfolio/for-ajax-load/more-portfolio.html" data-action="portfolio">
+
+                    <div class="row">
+                        <div class="col-sm-12">
+
+                            <!-- START PORTFOLIO FILTER -->
+                            <div class="portfolio-category-wrap text-center">
+                                <ul class="portfolio-category">
+                                    <li class="filter active" data-target="*">All</li>
+                                    <li class="filter" data-target=".art">Art</li>
+                                    <li class="filter" data-target=".accessories">Accessories</li>
+                                    <li class="filter" data-target=".design">Design</li>
+                                    <li class="filter" data-target=".fashon">Fashion</li>
+                                </ul>
+                            </div>
+                            <!-- END PORTFOLIO FILTER -->
+
+                        </div><!-- /.col-sm-12 -->
+                    </div><!-- /.row -->
+
+                    <div class="row">
+
+                        <!-- START PORTFOLIO ITEMS -->
+                        <div class="protfolio-items">
+
+                            <!-- START SINGLE PORTFOLIO ITEM WITH CONTENT POPUP AND ATTACHMENT PREVIEW -->
+                            <div id="portfolio-01" class="col-xxs-12 col-xs-12 col-sm-4 col-md-4 single-portfolio">
+                                <div class="portfolio-item wow fadeInUpSmall">
+                                    <a href="portfolio/custom-popups/popup-01/preview.html" class="portfolio-custom-popup">
+                                        <!-- PORTFOLIO IMAGE -->
+                                        <img src="images/movieHistory.png" alt="portfolio-thumb-1">
+
+                                        <!-- PORTFOLIO TEXT -->
+
+                                        <div class="portfolio-text">
+                                            <i class="zmdi zmdi-plus"></i>
+                                            <h4>Paper dreams</h4>
+                                            <h5>Branding</h5>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div><!-- /.col-xxs-12 col-xs-12 col-sm-4 col-md-4 -->
+
+                            <!-- START SINGLE PORTFOLIO ITEM WITH DETAILS PAGE ( STYLE 1 ) -->
+                            <div id="portfolio-02" class="col-xxs-12 col-xs-12 col-sm-4 col-md-4 single-portfolio art design accessories">
+                                <div class="portfolio-item wow fadeInUpSmall" data-wow-delay=".1s">
+                                    <a href="portfolio/single-pages/portfolio-single-01.html" target="_blank">
+                                        <!-- PORTFOLIO IMAGE -->
+                                        <img src="images/front-end.png" alt="portfolio-thumb-2">
+
+                                        <!-- PORTFOLIO TEXT -->
+                                        <div class="portfolio-text">
+                                            <i class="zmdi zmdi-plus"></i>
+                                            <h4>Paper dreams</h4>
+                                            <h5>Branding</h5>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div><!-- /.col-xxs-12 col-xs-12 col-sm-4 col-md-4 -->
+
+                            <!-- START SINGLE PORTFOLIO ITEM WITH DETAILS PAGE ( STYLE 2 ) -->
+                            <div id="portfolio-03" class="col-xxs-12 col-xs-12 col-sm-4 col-md-4 single-portfolio art fashon">
+                                <div class="portfolio-item wow fadeInUpSmall" data-wow-delay=".2s">
+                                    <a href="portfolio/single-pages/portfolio-single-02.html" target="_blank">
+                                        <!-- PORTFOLIO IMAGE -->
+                                        <img src="img/portfolio/thumb/portfolio-thumb-3.jpg" alt="portfolio-thumb-3">
+
+                                        <!-- PORTFOLIO TEXT -->
+                                        <div class="portfolio-text">
+                                            <i class="zmdi zmdi-plus"></i>
+                                            <h4>Paper dreams</h4>
+                                            <h5>Branding</h5>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div><!-- /.col-xxs-12 col-xs-12 col-sm-4 col-md-4 -->
+
+                            <!-- START SINGLE PORTFOLIO ITEM WITH DETAILS PAGE ( STYLE 3 ) -->
+                            <div id="portfolio-04" class="col-xxs-12 col-xs-12 col-sm-4 col-md-4 single-portfolio art accessories fashon">
+                                <div class="portfolio-item wow fadeInUpSmall">
+                                    <a href="portfolio/single-pages/portfolio-single-03.html" target="_blank">
+                                        <!-- PORTFOLIO IMAGE -->
+                                        <img src="img/portfolio/thumb/portfolio-thumb-4.jpg" alt="portfolio-thumb-4">
+
+                                        <!-- PORTFOLIO TEXT -->
+                                        <div class="portfolio-text">
+                                            <i class="zmdi zmdi-plus"></i>
+                                            <h4>Paper dreams</h4>
+                                            <h5>Branding</h5>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div><!-- /.col-xxs-12 col-xs-12 col-sm-4 col-md-4 -->
+
+                            <!-- START SINGLE PORTFOLIO ITEM WITH IMAGE POPUP GALLERY -->
+                            <div id="portfolio-05" class="col-xxs-12 col-xs-12 col-sm-4 col-md-4 single-portfolio art accessories">
+                                <div class="portfolio-item wow fadeInUpSmall" data-wow-delay=".1s">
+                                    <a href="img/portfolio/popup/portfolio1_popup.jpg" class="portfolio-default-popup">
+                                        <!-- PORTFOLIO IMAGE -->
+                                        <img src="img/portfolio/thumb/portfolio-thumb-5.jpg" alt="portfolio-thumb-5">
+
+                                        <!-- PORTFOLIO TEXT -->
+                                        <div class="portfolio-text">
+                                            <i class="zmdi zmdi-plus"></i>
+                                            <h4>Paper dreams</h4>
+                                            <h5>Branding</h5>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div><!-- /.col-xxs-12 col-xs-12 col-sm-4 col-md-4 -->
+
+                            <!-- START SINGLE PORTFOLIO ITEM WITH IMAGE POPUP GALLERY -->
+                            <div id="portfolio-06" class="col-xxs-12 col-xs-12 col-sm-4 col-md-4 single-portfolio art design">
+                                <div class="portfolio-item wow fadeInUpSmall" data-wow-delay=".2s">
+                                    <a href="img/portfolio/popup/portfolio2_popup.jpg" class="portfolio-default-popup">
+                                        <!-- PORTFOLIO IMAGE -->
+                                        <img src="img/portfolio/thumb/portfolio-thumb-6.jpg" alt="portfolio-thumb-6">
+
+                                        <!-- PORTFOLIO TEXT -->
+                                        <div class="portfolio-text">
+                                            <i class="zmdi zmdi-plus"></i>
+                                            <h4>Paper dreams</h4>
+                                            <h5>Branding</h5>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div><!-- /.col-xxs-12 col-xs-12 col-sm-4 col-md-4 -->
+
+                        </div>
+                        <!-- END PORTFOLIO ITEMS -->
+
+                        <!-- Portfolio ajax div, it's a hidden div need for ajax loading -->
+                        <div data-action="portfolioInitItem" class="portfolio-ajax-hidden-div"></div>
+
+                        <!-- START PORTFOLIO LOAD MORE BUTTON -->
+                        <div class="load-portfolio text-center m-t-xxs-15 m-t-sm-45 wow fadeInUpSmall" data-wow-duration="1s">
+                            <!-- Accent-colored raised button with ripple -->
+                            <button data-action="portfolioLoadItem" class="mdl-button mdl-button--large mdl-js-button mdl-js-ripple-effect">Load More</button>
+                        </div>
+                        <!-- END PORTFOLIO LOAD MORE BUTTON -->
+
+                    </div><!-- /.row -->
+                </div>
+            </div><!-- /.container -->
+        </section>
+        <!-- END PORTFOLIO -->
+
+        <!-- START Logos
+        ========================================================================== -->
+        <section id="logos" class="logos section-main section-padding">
+            <div class="container">
+
+                <!-- START SECTION HEADING -->
+                <div class="section-heading text-center m-b-xxs-30 m-b-sm-60 m-b-md-80">
+                    <h2 class="wow fadeInUpSmall">Logos</h2>
+                    <h3 class="wow fadeInUpSmall" data-wow-delay=".15s">These are some logos that I created at Nashville State in my Illustrator class. </h3>
+                </div>
+                <!-- END SECTION HEADING -->
+
+                <!-- OWL CAROUSEL -->
+                <div class="logo-slider owl-carousel" data-owl-options='{"margin":25,"loop":true,"smartSpeed":300, "dots":false,"nav":true,"responsiveClass":true,"responsive":{"0":{"items":1,"nav":true,"dots":false},"768":{"items":2,"nav":true,"dots":false},"992":{"items":3},"1200":{"items":4}}}'>
+
+                    <!-- START logo -->
+                    <div class="single-logo wow fadeInUp">
+                        <!-- logo IMAGE-->
+                        <div class="logo__image">
+                            <img src="images/GuitarLogo.gif" alt="The Guitar Shop Logo Design">
+                        </div>
+                    </div>
+
+                    <!-- START logo-->
+                    <div class="single-logo wow fadeInUp" data-wow-delay=".1s">
+                        <!-- logo IMAGE-->
+                        <div class="logo__image">
+                            <img src="images/Winterfest.gif" alt="Winterfest Logo Design">
+                        </div>
+                    </div>
+
+                    <!-- START logo-->
+                    <div class="single-logo wow fadeInUp" data-wow-delay=".2s">
+                        <!-- logo IMAGE-->
+                        <div class="logo__image">
+                            <img src="images/childrensCenter.gif" alt="The Road Home Children's Center Logo Design">
+                        </div>
+                    </div>
+
+                    <!-- START logo-->
+                    <div class="single-logo wow fadeInUp" data-wow-delay=".3s">
+                        <!-- logo IMAGE-->
+                        <div class="logo__image">
+                            <img src="images/Cuppuccino.gif" alt="Cuppuccino Coffee Shop Logo Design">
+                        </div>
+                    </div>
+
+                    <!-- START logo-->
+                    <div class="single-logo wow fadeInUp" data-wow-delay=".4s">
+                        <!-- logo IMAGE-->
+                        <div class="logo__image">
+                            <img src="images/MasterChef.gif" alt="Master Chef Logo Design">
+                        </div>
+                    </div>
+
+                    <!-- START logo-->
+                    <div class="single-logo wow fadeInUp" data-wow-delay=".5s">
+                        <!-- logo IMAGE-->
+                        <div class="logo__image">
+                            <img src="images/Rockvale.gif" alt="Rockvale Rockets Logo Design">
+                        </div>
+                    </div>
+                    <!-- START logo-->
+                    <div class="single-logo wow fadeInUp" data-wow-delay=".5s">
+                        <!-- logo IMAGE-->
+                        <div class="logo__image">
+                            <img src="images/airShow.gif" alt="Smyrna Air Show Logo Design">
+                        </div>
+                    </div>
+                    <!-- START logo-->
+                    <div class="single-logo wow fadeInUp" data-wow-delay=".5s">
+                        <!-- logo IMAGE-->
+                        <div class="logo__image">
+                            <img src="images/PartyCity.gif" alt="Party City Logo Design">
+                        </div>
+                    </div>
+                </div>
+            </div><!-- /.container-->
+        </section>
+        <!-- END TEAM -->
+
+
+        <!-- START CONTACT ADDRESS
+        ========================================================================== -->
+        <section class="contact-address overflow-hidden">
+
+            <div class="bg-parallax" data-center="transform: translate3d(0px, -50%, 0px)" data-top-bottom="transform: translate3d(0px, -25%, 0px)" data-bottom-top="transform: translate3d(0px, -75%, 0px)"></div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="single-address wow fadeInLeftSmall">
+                            <div class="single-address__icon">
+                                <i class="zmdi zmdi-phone"></i>
+                            </div>
+                            <div class="single-address__text">
+                                <h4>Call Me</h4>
+                                <span>(615) 892-0808 </span>
+                            </div>
+                        </div>
+                    </div><!-- /.col-sm-4 -->
+                    <div class="col-sm-4">
+                        <div class="single-address wow fadeInLeftSmall" data-wow-delay=".15s">
+                            <div class="single-address__icon">
+                                <i class="zmdi zmdi-email"></i>
+                            </div>
+                            <div class="single-address__text">
+                                <h4>Email</h4>
+                                <span>c_j_y@ymail.com</span>
+                            </div>
+                        </div>
+                    </div><!-- /.col-sm-4 -->
+                    <div class="col-sm-4">
+                        <div class="single-address wow fadeInLeftSmall" data-wow-delay=".3s">
+                            <div class="single-address__icon">
+                                <i class="zmdi zmdi-pin"></i>
+                            </div>
+                            <div class="single-address__text">
+                                <h4>Address</h4>
+                                <span>New street, Florida, USA</span>
+                            </div>
+                        </div>
+                    </div><!-- /.col-sm-4 -->
+                </div><!-- /.row -->
+            </div><!-- /.container -->
+        </section>
+        <!-- END CONTACT ADDRESS -->
+
+        <!-- START CONTACT
+        ========================================================================== -->
+        <section id="contact" class="contact-form section-main section-padding section">
+            <div class="container">
+
+                <!-- START SECTION HEADING -->
+                <div class="section-heading text-center m-b-xxs-60 m-b-md-80">
+                    <h2  class="wow fadeInUpSmall">Need A Website!?</h2>
+                    <h3  class="wow fadeInUpSmall" data-wow-delay=".15s">Contact me for me details on creating a website for your business!!</h3>
+                </div>
+                <!-- END SECTION HEADING -->
+
+                <div class="row">
+                    <div class="col-sm-12 col-md-8 col-md-offset-2">
+                        <form id="contactForm" class="personx-form-valid wow fadeInUpSmall" action="#">
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <div class="mdl-textfield mdl-js-textfield m-b-xxs-15 m-b-sm-0">
+                                        <input id="name" class="mdl-textfield__input" name="name" type="text" placeholder="Your Name">
+                                    </div>
+                                </div><!-- /.col-sm-4 -->
+                                <div class="col-sm-4">
+                                    <div class="mdl-textfield mdl-js-textfield m-b-xxs-15 m-b-sm-0">
+                                        <input id="email" class="mdl-textfield__input" type="email" name="email" placeholder="Your Email">
+                                    </div>
+                                </div><!-- /.col-sm-4 -->
+                                <div class="col-sm-4">
+                                    <div class="mdl-textfield mdl-js-textfield">
+                                        <input id="subject" class="mdl-textfield__input" type="text" name="subject" placeholder="Subject">
+                                    </div>
+                                </div><!-- /.col-sm-4 -->
+                            </div><!-- /.row -->
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="mdl-textfield mdl-textfield--textarea mdl-js-textfield">
+                                        <textarea id="message" class="mdl-textfield__input" type="text" name="message" placeholder="Your Message"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="text-center m-t-xxs-30 m-t-sm-60">
+                                        <button class="mdl-button mdl-button--large mdl-js-button mdl-js-ripple-effect">Send</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div><!-- /.col-md-8 col-md-offset-2 col-sm-12 -->
+                </div><!-- /.row -->
+            </div><!-- /.container -->
+        </section>
+        <!-- END CONTACT -->
+
+        <!-- START FOOTER -->
+        <footer class="footer">
+            <section class="footer__top">
+                <div class="container">
+                    <div class="footer__top__inner text-center">
+                        <a href="index.html" class="m-b-xxs-30 m-b-md-40 wow fadeInDownSmall">
+                            <img src="images/SingleLogo2.png" alt="Web Design and Development" width="100px" height="100px">
+                        </a>
+                        <ul>
+                            <li class="wow fadeInUpSmall"><a href="javascript:void(0)"><i class="zmdi zmdi-facebook"></i></a></li>
+                            <li class="wow fadeInUpSmall" data-wow-delay=".1s"><a href="javascript:void(0)"><i class="zmdi zmdi-twitter"></i></a></li>
+                            <li class="wow fadeInUpSmall" data-wow-delay=".2s"><a href="javascript:void(0)"><i class="zmdi zmdi-google-plus"></i></a></li>
+                            <li class="wow fadeInUpSmall" data-wow-delay=".3s"><a href="javascript:void(0)"><i class="zmdi zmdi-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div><!-- /.container -->
+            </section>
+            <section class="footer__bottom">
+                <div class="container">
+                    <div class="footer__bottom__text text-center">
+                        <p>Ace Development & Design &copy; 2017. All Rights Reserved.</p>
+                    </div>
+                </div><!-- /.container -->
+            </section>
+        </footer>
+        <!-- END FOOTER -->
+
+        <!-- START BACK TO TOP -->
+        <button id="backToTop" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect back-to-top shade-on hide-right">
+            <i class="zmdi zmdi-chevron-down"></i>
+        </button>
+        <!-- END BACK TO TOP -->
+
+        <!-- SCRIPTS
+        ========================================================================== -->
+        <!-- JQUERY -->
+        <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-1.12.4.min.js"><\/script>')</script>
+
+        <!-- GOOGLE MAP API -->
+        <script src="https://maps.google.com/maps/api/js?key=Place_Your_Google_Map_API_Key"></script>
+
+        <!-- ALL PLUGINS -->
+        <script src="assets/js/plugins.js"></script>
+
+        <!-- JW PLAYER -->
+        <script src="assets/libs/jwplayer/jwplayer.js"></script>
+
+        <!-- ALL COMPONENTS JS -->
+        <script src="assets/js/components.js"></script>
+    </body>
 </html>
